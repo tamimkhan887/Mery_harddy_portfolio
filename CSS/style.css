@@ -99,8 +99,12 @@ header {
 }
 
 main {
-    width: 1250px;
+    width: 1550px;
     margin: 0 auto;
+}
+
+main>section {
+    margin-top: 130px;
 }
 
 .section_main {
@@ -167,6 +171,7 @@ main {
 
 .skill_container {
     display: flex;
+    margin: 0px 263px;
 }
 
 .skill {
@@ -199,4 +204,48 @@ main {
     width: 44px;
     height: 44px;
     flex-shrink: 0;
+}
+
+.summary_container {
+    display: flex;
+    margin-left: 250px;
+    margin-right: 270px;
+    margin-top: 113px;
+}
+
+.exp_container {
+    margin-left: 12px;
+}
+
+.edu_container {
+    margin-right: 12px;
+}
+
+.edu_exp_title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.edu_exp_sub_title{
+    color: #474747;
+font-size: 25px;
+font-weight: 700;
+margin-top: 30px;
+margin-bottom: 0;
+} 
+.edu_exp_ins_name{
+    color:#757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 0;
+} 
+.edu_exp_discription{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 20px;
 }

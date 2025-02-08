@@ -53,6 +53,7 @@ header {
     background-image: url(/images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
+    margin-bottom: 0px;
 }
 
 .banner {
@@ -93,6 +94,109 @@ header {
     margin-bottom: 30px;
 }
 
-.but_fix{
+.but_fix {
     margin-top: 0;
+}
+
+main {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.section_main {
+    color: #181818;
+    text-align: center;
+
+    font-size: 35px;
+
+    font-weight: 700;
+    margin-bottom: 0px;
+
+}
+
+.section_para {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 130px;
+}
+
+.about_info_container {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+}
+
+.about_info {
+    text-align: center;
+}
+
+.info_title {
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+
+.info_discription {
+    margin-top: 2px;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.section_para_2 {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 30px 115px;
+}
+
+.skill_container {
+    display: flex;
+}
+
+.skill {
+    width: 267px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-right: 24px;
+}
+
+.sikll_title {
+    color: #181818;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 63px 0px 30px;
+}
+
+.skill_discription {
+    margin: 20px 33px 30px 33px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.skill_images {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
 }
